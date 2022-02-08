@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App-container {
+  height: 100vh;
+  background-image: url('background.bmp');
+  background-size: cover;
+}
+
+.App-content {
+  height: 100vh;
+  background-color: rgba(43, 42, 42, 0.6);
+  text-align: center;
+  margin: auto;
+}
+
+.App-header{
+  padding-top: 30px;
+}
+
+.btn{
+  width: 250px;
+  height: 50px;
+  background-color:#D4674C;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #dde5e7;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover, .btn:active{
+  opacity: .9;
+  border: 2px solid #dde5e7;
+}
+
+.counter {
+  color: #D4674C;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 10px 0;
+
+}
+
+.App-profile{
+  width: 70%;
+  padding: 20px;
+  background-color: #67727eb3;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.App-profile .fullName {
+  color: #D4674C;
+}
+
+.App-profile .profession {
+  color: #dde5e7;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+
+.App-profile .bio {
+  color: #dde5e7;
+  width: 90%;
+  margin: auto;
+  background-color: #d4674c83;
+  padding: 15px;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  line-height: 18px;
+  font-size: 17px;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  border: 3px solid #D4674C;  
+}
